@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+html, body {
+  scroll-behavior: smooth;
+    background: #0b0b0d;
+    
+  
+}
+
+
+@keyframes hackrust-scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.hackrust-track {
+  display: flex;
+  width: max-content;
+  animation: hackrust-scroll 35s linear infinite;
+}
+
+/* Smooth float */
+@keyframes floatSmooth {
+  0%,100% { transform: translateY(0px) rotate(8deg); }
+  50% { transform: translateY(-20px) rotate(8deg); }
+}
+
+.floatSmooth {
+  animation: floatSmooth 6s ease-in-out infinite;
+}
