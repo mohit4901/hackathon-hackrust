@@ -89,9 +89,15 @@ export default function Hero() {
           BETWEEN COMPLEXITY.
         </h2>
 
-        <button className="mt-10 md:mt-12 bg-[#b30000] px-6 md:px-10 py-2 md:py-3 text-[10px] md:text-[11px] tracking-[0.3em] uppercase hover:bg-[#8f0000] transition-all duration-300 hover:scale-105">
-          REGISTER NOW
-        </button>
+     <a 
+  href="https://unstop.com/hackathons/hackrust-10-deenbandhu-chhotu-ram-university-of-science-and-technology-dcrust-murthal-haryana-1654056"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <button className="mt-10 md:mt-12 bg-[#b30000] px-6 md:px-10 py-2 md:py-3 text-[10px] md:text-[11px] tracking-[0.3em] uppercase hover:bg-[#8f0000] transition-all duration-300 hover:scale-105">
+    REGISTER NOW
+  </button>
+</a>
       </div>
 
       {/* Mobile Metadata */}
