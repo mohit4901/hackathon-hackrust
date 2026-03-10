@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 export default function CountdownSection() {
-  const eventDate = new Date("March 28, 2026 00:00:00").getTime();
+  const eventDate = new Date("March 27, 2026 00:00:00").getTime();
 
   const calculate = () => {
     const now = new Date().getTime();
