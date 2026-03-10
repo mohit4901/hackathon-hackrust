@@ -18,23 +18,13 @@ export default function Footer() {
       <div className="mt-16 flex items-center gap-6">
 
         <a
-          href="https://instagram.com/"
+          href="https://www.instagram.com/hack_rust/"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 text-sm uppercase tracking-widest hover:text-[#b30000] transition-all duration-300"
         >
           <FaInstagram className="text-xl" />
           Instagram
-        </a>
-
-        <a
-          href="https://linkedin.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center gap-2 text-sm uppercase tracking-widest hover:text-[#b30000] transition-all duration-300"
-        >
-          <FaLinkedinIn className="text-xl" />
-          LinkedIn
         </a>
 
       </div>
@@ -44,7 +34,7 @@ export default function Footer() {
         © 2026 HACKRUST 1.0 (DCRUST)
       </div>
       <div className="mt-16 text-xs uppercase tracking-[0.3em]">
-     Made with ❤️ By Mohit Mudgil
+     Made By GDG Web Dev Team
       </div>
 
     </footer>
