@@ -10,7 +10,7 @@ export default function Navbar() {
 
         {/* Logo / Title */}
         <div className="text-xs md:text-sm tracking-[0.3em] font-semibold">
-          THE OFFICIAL HACKATHON
+          HACKRUST 1.0
         </div>
 
         {/* Desktop Links */}
