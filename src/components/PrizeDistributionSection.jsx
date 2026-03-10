@@ -89,7 +89,7 @@ export default function PrizeDistribution() {
               viewport={{ once: false }}
               className="text-5xl font-bold text-[#b30000] relative z-10"
             >
-              ₹50K
+              ₹31K
             </motion.p>
           </motion.div>
 
@@ -103,7 +103,7 @@ export default function PrizeDistribution() {
             <h3 className="text-xs tracking-[0.4em] text-white/50 uppercase mb-4">
               Runner-Up
             </h3>
-            <p className="text-4xl font-semibold text-white">₹25K</p>
+            <p className="text-4xl font-semibold text-white">₹21K</p>
           </motion.div>
 
           {/* SECOND RUNNER UP */}
@@ -116,7 +116,7 @@ export default function PrizeDistribution() {
             <h3 className="text-xs tracking-[0.4em] text-white/50 uppercase mb-4">
               Second Runner-Up
             </h3>
-            <p className="text-3xl font-semibold text-white">₹10K</p>
+            <p className="text-3xl font-semibold text-white">₹11K</p>
           </motion.div>
 
         </motion.div>
@@ -136,7 +136,7 @@ export default function PrizeDistribution() {
             className="bg-[#0d0d0d] border border-white/10 p-8 rounded-2xl text-center hover:border-[#b30000] transition duration-300"
           >
             <h3 className="text-xs tracking-[0.4em] text-white/50 uppercase mb-3">
-              Special Mention
+              Best Open Innovation
             </h3>
             <p className="text-2xl font-semibold text-white">₹5K</p>
           </motion.div>
@@ -147,7 +147,7 @@ export default function PrizeDistribution() {
             className="bg-[#0d0d0d] border border-white/10 p-8 rounded-2xl text-center hover:border-[#b30000] transition duration-300"
           >
             <h3 className="text-xs tracking-[0.4em] text-white/50 uppercase mb-3">
-              Special Mention
+            Best All Girls Team
             </h3>
             <p className="text-2xl font-semibold text-white">₹5K</p>
           </motion.div>
